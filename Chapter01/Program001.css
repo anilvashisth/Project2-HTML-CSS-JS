@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+  }
+  
+  h1,h2,h3 {
+    color: green;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
