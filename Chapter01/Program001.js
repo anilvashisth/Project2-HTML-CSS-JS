@@ -1,29 +1,16 @@
-const buttonsEl = document.querySelectorAll("button");
+//var carName = "Mahindra";
 
-const inputFieldEl = document.getElementById("result");
+//var x = 500;
+//var y = 300;
+//document.getElementById("demo").innerHTML = x + y;
 
-for (let i = 0; i < buttonsEl.length; i++) {
-  buttonsEl[i].addEventListener("click", () => {
-    const buttonValue = buttonsEl[i].textContent;
-    if (buttonValue === "C") {
-      clearResult();
-    } else if (buttonValue === "=") {
-      calculateResult();
-    } else {
-      appendValue(buttonValue);
-    }
-  });
-}
+//var firstName="Anil";
+//var lastName ="Kumar";
+//Age=40;
 
-function clearResult() {
-  inputFieldEl.value = "";
-}
-
-function calculateResult() {
-  inputFieldEl.value = eval(inputFieldEl.value);
-}
-
-function appendValue(buttonValue) {
-  inputFieldEl.value += buttonValue;
-  //   inputFieldEl.value = inputFieldEl.value + buttonValue;
-}
+var x=5;
+var y=6;
+var z=x+y;
+document.write("The sum of x and y is :",z);
+alert(z);
+document.getElementById("demo").innerHTML = "My First JavaScript";
