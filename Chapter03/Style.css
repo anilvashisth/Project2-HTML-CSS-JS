@@ -1,0 +1,18 @@
+*{
+    background-color: aqua;
+}
+h1{
+    border: 2ch;
+    background-color: rgb(231, 146, 146);
+    padding-left: 1ch;
+}
+h2{
+    border: 1ch;
+    background-color: green;
+    padding-right: 2ch;
+}
+p{
+    padding: auto;
+    border: 2ch;
+    border-color: antiquewhite;
+}
