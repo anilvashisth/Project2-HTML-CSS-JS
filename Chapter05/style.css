@@ -1,0 +1,30 @@
+*{
+    background-color: rgb(77, 77, 182);
+    font-size: large;
+    font-weight: 100;
+}
+h1{
+    border: 1ch;
+    padding: auto;
+    margin-top: auto;
+    background-color: aqua;
+}
+h2{
+    border-radius: 1ch;
+    margin-top: auto;
+    padding-left: 2ch;
+    background-color: rgb(48, 187, 74);
+}
+h3{
+    border: 2ch;
+    align-self: start;
+    background-color: brown;
+    padding-top: 2ch;
+    
+}
+p{
+    border: 1ch;
+    padding-left: 2ch;
+    margin-top: auto;
+    background-color: beige;
+}
