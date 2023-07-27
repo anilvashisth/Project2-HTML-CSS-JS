@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="circle one"></div>
+  <div class="circle two"></div>
+  <div class="circle three"></div>
+  <div class="circle four"></div>
+</div>
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.circle {
+  border-radius: 50%;
+  left: calc(50% - 6.25em);
+  top: calc(50% - 12.5em);
+  transform-origin: 50% 12.5em;
+  width: 12.5em;
+  height: 12.5em;
+  position: absolute;
+  box-shadow: 0 1em 2em rgba(0, 0, 0, .5);
+}
+
+.one,
+.three {
+  background: rgba(142, 92, 205, .75);
+}
+
+.two,
+.four {
+  background: rgba(236, 252, 100, .75);
+}
+
+.one {
+  transform: rotateZ(0);
+}
+
+.two {
+  transform: rotateZ(90deg);
+}
+
+.three {
+  transform: rotateZ(180deg);
+}
+
+.four {
+  transform: rotateZ(-90deg);
+}

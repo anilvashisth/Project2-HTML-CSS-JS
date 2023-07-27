@@ -1,0 +1,14 @@
+body{
+    background-color: aquamarine;
+}
+
+table{
+    background-color: aqua;
+    box-sizing: content-box;
+}
+table, th, td {
+    border: 2px solid #d53838;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #af47ff;
+  }
