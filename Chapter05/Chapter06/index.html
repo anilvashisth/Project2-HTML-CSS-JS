@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Web Development</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="circle.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <a href="index.html" target="_blank"> Home</a>
+    <a href="table.html" target="_blank"> Emp Table</a>
+    <div>
+    <h1> Full Stack Web Development </h1>
+    <ol>
+        <li> Front End Development</li>
+        <li> Back End Development </li>
+        <li> Data Base </li>
+    </ol>
+    </div>
+
+    <div>
+    <h2> 1. Front End Web Dev </h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java Script </li>
+        </ul>   
+            <ul> 
+                <h3> Java Script Library and Framework </h3>
+                <li> ReactJS is Java Script Library (By Facebook) </li>
+                <li> Angular is Java Script Framework (By Google) </li>
+            </ul>
+    </div>
+
+    <div>
+        <h2> 2. Back End Web Development </h2>
+        <ul>
+            <li> Jave Script </li>
+            <li> Python </li>
+            <li> PHP </li>
+            <LI> Ruby on Rail </LI>
+        </ul>
+    </div>
+
+    <div>
+            <p>
+              <h2> 3. Data Base </h2>
+              <ul>
+                <li>MySQL </li>
+                <li>MongoDB </li>
+                <li>Cassandra</li>
+              </ul>
+            </p>
+    </div>
+
+    <div>
+        <p>How to add the following two numbers and display the result, using JavaScript</p>
+        <p>First Number:<span id= "firstNum">12</span> </p>
+        <p>Second Number: <span id= "secondNum">27</span> </p>
+        <p>Sum of the two Given numbers is: <span id= "answer">(placeholder for the answer)</span></p>
+        <input type="button" id="sumButton" value="Click to add!">
+    </div>
+    <script>
+    function displaySum() {
+        let firstNum = Number(document.getElementById('firstNum').innerHTML)
+        let secondNum = Number(document.getElementById('secondNum').innerHTML)
+      
+        let total = firstNum + secondNum;
+        document.getElementById("answer").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
+      }
+      
+      document.getElementById('sumButton').addEventListener("click", displaySum);
+    </script>
+      
+</body>
+</html>
