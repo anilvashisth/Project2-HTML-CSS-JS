@@ -1,0 +1,48 @@
+.subscribe-button{
+    margin: 10px;
+    padding-left: 2px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px;
+    color: aliceblue;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    cursor: pointer;
+}
+.join-button{
+    margin: 10px;
+    padding-left: 2px;
+    background-color: rgb(57, 15, 208);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px;
+    color: aliceblue;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    cursor: pointer;
+}
+.tweet-button{
+    margin: 10px;
+    padding-left: 2px;
+    background-color: rgb(16, 232, 85);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px;
+    color: aliceblue;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    cursor: pointer;
+}
